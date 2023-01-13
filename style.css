@@ -19,12 +19,17 @@ div.roig{
 }
 article.media {
     text-align: center;
+    display: flex;
 }
 div.mapa{
-    display: inline-block;
+    flex: 1;
 }
 div.video{
-    display: inline-block;
+
+    flex: 1;
+}
+article.verd{
+    
 }
 div.verd{
     background-color:green ;

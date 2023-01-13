@@ -1,0 +1,68 @@
+h1.titulo{
+    text-align: center;
+
+}
+
+p.desplazado{
+    background-color:teal;
+    border: black 1px solid;
+    /* Con esto establecemos el desplazamiento */
+    position: relative;
+    top: 20px;
+}
+
+p.contenido{
+    background-color: brown;
+    border: black 1px solid;
+    /* Con esto establecemos el desplazamiento */
+    position: relative;
+    bottom: -20px;
+}
+
+p.texto{
+    background-color: aquamarine;
+    border: black 1px solid;
+    /* Con esto establecemos el desplazamiento */
+    position: relative;
+    left: 20px;
+}
+
+p.t2{
+    background-color: mediumturquoise;
+    border: black 1px solid;
+    /* Con esto establecemos el desplazamiento */
+    position: relative;
+    right: 20px;
+}
+
+p.P1{
+    background-color: lightblue;
+  height: 150px;
+  width: 150px;
+}
+
+p.P2 {
+  background-color: #DDDDDD;
+  height: 150px;
+  left: 50px;
+  position: relative;
+  top: -50px;
+  width: 150px;
+}
+
+p.P3{
+    background-color: lightblue;
+  height: 150px;
+  left: 50px;
+  position: relative;
+  top: 50px;
+  width: 150px;
+  /* Con z-index podemos hacer un mejor posicionamiento*/
+  z-index: ;
+}
+
+p.P4{
+  background-color: #DDDDDD;
+  height: 150px;
+  width: 150px;
+}
